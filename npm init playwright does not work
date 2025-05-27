@@ -1,0 +1,7 @@
+If 
+npm is not identified as a command or you get the error "C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is 
+disabled on this system."
+then
+open windows powershell as Administrator and
+run below command
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
