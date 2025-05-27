@@ -1,0 +1,24 @@
+{
+  "name": "test-automation-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "format": "prettier --write .",
+  "lint": "eslint . --ext .js,.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21",
+    "eslint": "^9.27.0",
+    "eslint-plugin-playwright": "^2.2.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.32.1"
+  }
+}
